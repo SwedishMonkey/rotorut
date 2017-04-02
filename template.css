@@ -49,9 +49,16 @@ ul {
 
 .content {
 	padding: 20px 0 20px 0;
-	background-color: #ffffff;
+    margin: auto;
+    width: 100%;
 }
 
 footer {
     background-color: #333
+}
+
+#copyright {
+    color: #e2e2e2;
+    font-style: italic;
+    font-size: 12px;
 }

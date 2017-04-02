@@ -1,15 +1,17 @@
 #contactDiv {
-    background-color: #e2e2e2;
+    background-color: #333;
     padding: 0;
+    color: black;
   }
 
 #info {
-    background-color: black;
+    background-color: #e2e2e2;
     padding: 0;
+    color: black;
 }
 
 #conactForm {
-    align: center;
+    margin: auto;
 }
 
 #contactForm input:not(.formButton) {
@@ -26,8 +28,14 @@
 	width: 200%;
 }
 
-#contactForm td {
-	padding: 2px;
+#contactForm  {
+	width: 20%;
+    display: inline-block;
+}
+
+#contactForm input {
+    border: 1px solid white;
+    width: 25%
 }
 
 .formButton {
