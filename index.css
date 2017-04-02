@@ -7,3 +7,35 @@
     background-color: black;
     padding: 0;
 }
+
+#conactForm {
+    align: center;
+}
+
+#contactForm input:not(.formButton) {
+	background-color: #e2e2e2;
+	border: none;
+	padding: 5px 5px 5px 5px;
+	width: 200%;
+}
+
+#contactForm textarea {
+	background-color: #e2e2e2;
+	border: none;
+	padding: 5px 5px 5px 5px;
+	width: 200%;
+}
+
+#contactForm td {
+	padding: 2px;
+}
+
+.formButton {
+	border: 0;
+	padding: 10px 20px 10px 20px;
+	background-color: #e2e2e2;
+}
+
+.formButton:hover {
+	background-color: #a0a0a0;
+}
