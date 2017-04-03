@@ -1,0 +1,72 @@
+body, h1, h2, h3, header, footer, p, ul, li, table, tr, td, form, input, div, img {
+	padding: 0;
+	margin: 0;
+	border: 0;
+    font-family: arial;
+}
+
+h1 #navMenu {
+    font-size: 36px;
+}
+
+.menu {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	background-color: #294d87;
+	color: #fff;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.menuContent {
+	padding: 0 5% 0 5%;
+}
+
+#headerFirst ul {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+#headerFirst span:not(#logo) {
+	float: right;
+	padding: 30px;
+}
+
+#headerFirst li span:hover:not(.noHover) {
+	background-color: #1a3259;
+}
+
+#headerFirst li a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+    font-size: 24px;
+}
+
+#logo {
+	float: left;
+	padding: 20px;
+}
+
+.content {
+	padding: 10% 0 10% 0;
+    margin: auto;
+    width: 100%;
+}
+
+footer {
+    background-color: #294d87;
+    padding: 0;
+}
+
+#copyright {
+    color: #fff;
+    font-style: italic;
+    font-size: 12px;
+    padding: 46%;
+}

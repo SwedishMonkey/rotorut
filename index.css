@@ -1,49 +1,44 @@
-#contactDiv {
-    background-color: #333;
-    padding: 0;
-    color: black;
-  }
-
-#info {
-    background-color: #e2e2e2;
-    padding: 0;
-    color: black;
+.infoSlider {
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
 }
 
-#conactForm {
-    margin: auto;
+#infoSliderText {
+    display: block;
+    position: absolute;
+    width: 100%;
+    text-align:center;
+    top: 35%;
+    color: #fff;
+    font-size: 48px;
 }
 
-#contactForm input:not(.formButton) {
-	background-color: #e2e2e2;
-	border: none;
-	padding: 5px 5px 5px 5px;
-	width: 200%;
+#our_services {
+    background-color: #294d87;
 }
 
-#contactForm textarea {
-	background-color: #e2e2e2;
-	border: none;
-	padding: 5px 5px 5px 5px;
-	width: 200%;
+.center {
+    text-align: center;
 }
 
-#contactForm  {
-	width: 20%;
-    display: inline-block;
+h1 {
+    color: #fff;
+    font-size: 48px;
 }
 
-#contactForm input {
-    border: 1px solid white;
-    width: 25%
+.our_services_fa{
+    color: #fff;
+    font-size: 150px;
+    padding: 5% 0 5% 0;
 }
 
-.formButton {
-	border: 0;
-	padding: 10px 20px 10px 20px;
-	background-color: #e2e2e2;
+.our_services_text{
+    padding: 0 10% 0 10%;
+    color: #fff;
+    text-align: center;
 }
 
-.formButton:hover {
-	background-color: #a0a0a0;
+#info_table {
+    padding: 0 15% 0 15%;
 }
