@@ -1,0 +1,15 @@
+.reqForm {
+	color: red;
+}
+
+#createAccount input, select {
+	border: none;
+	background-color: #333;
+	padding: 5px 5px 5px 5px;
+	width: 100%;
+	color: #e2e2e2;
+}
+
+#createAccount td input {
+	background-color: #333;
+}

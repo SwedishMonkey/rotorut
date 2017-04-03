@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html land="en">
+	<head>
+		<link rel="stylesheet" type="text/css" href="skapa_konto.css">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>  
+	
+		<script> 
+			$(function(){
+			$("#header").load("header.html"); 
+			$("#body").load("body.html");
+			$("#footer").load("footer.html"); 
+			});
+		</script>
+
+	</head>
+
+	<body>
+		<header>
+			<div id="header"></div>
+		</header>
+
+		<div id="page">
+			<div id="content">
+				<form id="createAccount">
+					<table>
+						<tr>
+							<td>Förnamn <i class="reqForm">*</i></td>
+							<td><input type="text" name="name" required="true"></td>
+						</tr>
+						<tr>
+							<td>Efternamn <i class="reqForm">*</i></td>
+							<td><input type="text" name="surname" required="true"></td>
+						</tr>
+						<tr>
+							<td>Mobilnummer <i class="reqForm">*</i></td>
+							<td><input type="tel" name="phone" required="true"></td>
+						</tr>
+						<tr>
+							<td>E-post <i class="reqForm">*</i></td>
+							<td><input type="email" name="email" required="true"></td>
+						</tr>
+						<tr>
+							<td>Lösenord <i class="reqForm">*</i></td>
+							<td><input type="password" name="pass" required="true"></td>
+						</tr>
+						<tr>
+							<td>Repetera lösenord <i class="reqForm">*</i></td>
+							<td><input type="password" name="repPass" required="true"></td>
+						</tr>
+						<tr>
+							<td>Kontotyp <i class="reqForm">*</i></td>
+							<td><select>
+								<option value="ut">Uppdragstagare</option>
+								<option value="ug">Uppdragsgivare</option>
+							</select></td>
+						</tr>
+						<tr>
+							<td><input type ="submit" name="submit" class="formButton"></td>
+							<td><input type ="reset" name="reset" class="formButton"></td>
+						</tr>
+					</table>
+				</form>
+			</div>
+		</div>
+		<footer>
+			<div id="footer"></div>
+		</footer>
+
+	</body>
+</html>
