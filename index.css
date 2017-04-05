@@ -16,6 +16,7 @@
 
 #our_services {
     background-color: #294d87;
+        padding: 2% 0 2% 0;
 }
 
 .center {
@@ -34,11 +35,35 @@ h1 {
 }
 
 .our_services_text{
-    padding: 0 10% 0 10%;
+    padding: 0 10% 2% 10%;
     color: #fff;
     text-align: center;
 }
 
 #info_table {
     padding: 0 15% 0 15%;
+}
+
+#latest_jobs {
+    background-color: #333;
+        padding: 2% 0 2% 0;
+}
+
+#contact {
+    background-color: #1a3259;
+    padding: 2% 0 2% 0;
+}
+
+.contactForm {
+    width: 40%;
+    padding: 20px 0 20px 10px;
+    margin: 5px;
+    background-color: #294d87; 
+    color: #e2e2e2;
+    font-size: 16px;
+    border: none;
+}
+
+#message {
+    width: 81.25%;
 }
